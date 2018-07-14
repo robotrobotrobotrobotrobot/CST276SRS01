@@ -1,11 +1,12 @@
 #ifndef WEATHER_VIEWER_CURRENT_H
 #define WEATHER_VIEWER_CURRENT_H
-
 #include <ostream>
+#include "observer.h"
+
 
 namespace WeatherViewer
 {
-    class Current
+    class Current: public Observer
     {
         friend std::ostream& operator<<(std::ostream& os, Current const& current);
 
