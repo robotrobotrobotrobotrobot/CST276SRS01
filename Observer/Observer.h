@@ -2,6 +2,7 @@
 #ifndef  OBSERVER_H
 #define  OBSERVER_H
 #include "stdafx.h"
+
 class Subject;
 
 class Observer

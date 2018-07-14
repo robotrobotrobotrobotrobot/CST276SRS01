@@ -1,8 +1,5 @@
 #include "stdafx.h"
 #include "Subject.h"
-#include <algorithm>
-
-using namespace std;
 
 void Subject::Attach(Observer *o)
 {

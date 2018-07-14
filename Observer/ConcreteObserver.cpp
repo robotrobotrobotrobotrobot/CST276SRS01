@@ -4,7 +4,6 @@
 ConcreteObserver::ConcreteObserver(ConcreteSubject * s)
 {
 	s->Attach(this);
-	std::cout << "attack this to subject.";
 	refSub = s;
 	
 }

@@ -6,11 +6,11 @@
 #include <vector>
 #include <list>
 #include "Observer.h"
+#include <algorithm>
 using namespace std;
 class Subject
 {
-	std::vector<Observer*> list;
-
+	std::vector<Observer *> list;
 public:
 	void Attach(Observer *product);
 	void Detach(Observer *product);
